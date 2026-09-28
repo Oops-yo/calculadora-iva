@@ -15,5 +15,5 @@ taxa = 0.23
 valor_iva = preco * taxa
 total = preco + valor_iva
 
-print("IVA (23%):", valor_iva)
-print("Total com IVA:", total)
+print(f"IVA (23%): {valor_iva: .2f}")
+print(f"Total com IVA: {total: .2f}")
